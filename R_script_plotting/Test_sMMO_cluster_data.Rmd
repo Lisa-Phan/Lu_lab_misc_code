@@ -1,0 +1,19 @@
+---
+title: "Plot_cluster_data_distribution"
+author: "LP"
+date: "2023-06-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r load_data, echo=FALSE}
+library(ggplot2)
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
