@@ -1,0 +1,368 @@
+Step 0: Define variables, tools, primer_sequences and paths at echo Mon May 22 20:45:04 CDT 2023.
+Step 1: Check and create directories at Mon May 22 20:45:04 CDT 2023.
+Creating directory 5k_test/step3_cutadapt/fastqc and any parent directories at Mon May 22 20:45:04 CDT 2023.
+STEP2: load module, define input files.
+Created an updated file_list in 5k_test/step2_assembly/merged at Mon May 22 20:45:40 CDT 2023.
+1
+Line_number 1
+max sample number 1
+sample 1
+extracting from line number 1p
+Grabbing filenames from the external file 5k_test/step2_assembly/merged/file_list at Mon May 22 20:45:40 CDT 2023.
+Variable R is 5k_test/step2_assembly/merged/mini.R1.merged.fastq
+Variable sample_name is mini.R1.
+Variable input_file is mini.R1.
+STEP2: Remove Illumina universal adapter sequences at date.
+This is cutadapt 1.18 with Python 3.7.1
+Command line parameters: -j 80 -a AGATCGGAAGAG -e 0.1 --discard-trimmed -o 5k_test/step3_cutadapt/mini.R1.T1.fastq 5k_test/step2_assembly/merged/mini.R1.merged.fastq
+Processing reads on 80 cores in single-end mode ...
+Finished in 0.48 s (192 us/read; 0.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,490
+Reads with adapters:                         1 (0.0%)
+Reads written (passing filters):         2,489 (100.0%)
+
+Total basepairs processed:       265,444 bp
+Total written (filtered):        265,351 bp (100.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAG; Type: regular 3'; Length: 12; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	1	0.0	1	1
+
+This is cutadapt 1.18 with Python 3.7.1
+Command line parameters: -j 80 -b file:shorter_complex.fasta -n 4 --discard-trimmed -e 0.2 -o 5k_test/step3_cutadapt/mini.R1.T2.fastq 5k_test/step3_cutadapt/mini.R1.T1.fastq
+Processing reads on 80 cores in single-end mode ...
+Finished in 1.34 s (539 us/read; 0.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,489
+Reads with adapters:                       154 (6.2%)
+Reads written (passing filters):         2,335 (93.8%)
+
+Total basepairs processed:       265,351 bp
+Total written (filtered):        248,913 bp (93.8%)
+
+=== Adapter AACs ===
+
+Sequence: AACAACAACAACAACAACAACAACAACAAC; Type: variable 5'/3'; Length: 30; Trimmed: 42 times.
+11 times, it overlapped the 5' end of a read
+31 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30 bp: 6
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+3	10	38.9	0	10
+4	1	9.7	0	0 1
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	2	38.9	0	2
+4	4	9.7	0	2 2
+5	5	2.4	1	0 5
+6	2	0.6	1	0 2
+7	2	0.2	1	0 2
+10	2	0.0	2	0 0 2
+11	2	0.0	2	0 0 2
+55	1	0.0	6	1
+61	3	0.0	6	2 0 0 1
+64	1	0.0	6	1
+70	1	0.0	6	1
+73	1	0.0	6	1
+79	1	0.0	6	0 1
+81	1	0.0	6	0 1
+82	1	0.0	6	1
+114	1	0.0	6	1
+173	1	0.0	6	0 0 0 0 0 1
+
+=== Adapter GTTs ===
+
+Sequence: GTTGTTGTTGTTGTTGTTGTTGTTGTTGTT; Type: variable 5'/3'; Length: 30; Trimmed: 35 times.
+8 times, it overlapped the 5' end of a read
+27 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30 bp: 6
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+5	6	2.4	1	0 6
+6	2	0.6	1	0 2
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	11	38.9	0	11
+4	1	9.7	0	0 1
+5	1	2.4	1	0 1
+6	1	0.6	1	0 1
+13	1	0.0	2	0 1
+55	1	0.0	6	1
+61	1	0.0	6	1
+62	1	0.0	6	1
+64	1	0.0	6	1
+65	2	0.0	6	1 1
+66	1	0.0	6	0 0 0 0 0 0 1
+72	1	0.0	6	1
+75	1	0.0	6	0 0 0 1
+77	1	0.0	6	0 1
+81	1	0.0	6	1
+111	1	0.0	6	1
+
+=== Adapter AAAs ===
+
+Sequence: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA; Type: variable 5'/3'; Length: 30; Trimmed: 15 times.
+2 times, it overlapped the 5' end of a read
+13 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30 bp: 6
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+4	1	9.7	0	1
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+5	1	2.4	1	0 1
+7	1	0.2	1	0 1
+10	1	0.0	2	0 0 1
+60	1	0.0	6	0 0 0 0 1
+61	1	0.0	6	0 0 0 0 0 0 1
+62	2	0.0	6	0 0 0 2
+67	1	0.0	6	0 0 0 0 1
+74	1	0.0	6	0 0 0 0 1
+87	1	0.0	6	0 0 0 0 0 0 1
+119	1	0.0	6	0 0 0 0 0 0 1
+125	1	0.0	6	0 0 0 0 1
+
+=== Adapter TTTs ===
+
+Sequence: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT; Type: variable 5'/3'; Length: 30; Trimmed: 18 times.
+0 times, it overlapped the 5' end of a read
+18 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30 bp: 6
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	4	38.9	0	4
+4	3	9.7	0	3
+11	1	0.0	2	0 0 1
+15	1	0.0	3	0 0 0 1
+52	1	0.0	6	0 0 0 0 0 0 1
+56	1	0.0	6	0 0 0 0 0 0 1
+61	1	0.0	6	0 0 0 0 1
+62	2	0.0	6	0 0 0 2
+64	1	0.0	6	0 0 0 0 1
+66	1	0.0	6	0 0 0 0 1
+67	1	0.0	6	0 0 0 0 1
+79	1	0.0	6	0 0 0 0 0 0 1
+
+=== Adapter Illumina_Universal_Adapter ===
+
+Sequence: AGATCGGAAGAG; Type: variable 5'/3'; Length: 12; Trimmed: 69 times.
+3 times, it overlapped the 5' end of a read
+66 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-12 bp: 2
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+5	1	2.4	1	0 1
+9	1	0.0	1	0 0 1
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	2	38.9	0	2
+4	1	9.7	0	1
+5	3	2.4	1	0 3
+9	2	0.0	1	0 0 2
+11	1	0.0	2	0 0 1
+18	1	0.0	2	0 0 1
+23	10	0.0	2	0 0 10
+24	9	0.0	2	0 0 9
+25	9	0.0	2	0 0 9
+26	1	0.0	2	0 0 1
+28	1	0.0	2	0 0 1
+29	1	0.0	2	0 0 1
+30	3	0.0	2	0 0 3
+32	1	0.0	2	0 0 1
+38	3	0.0	2	0 0 3
+40	1	0.0	2	0 0 1
+46	1	0.0	2	0 0 1
+52	1	0.0	2	0 0 1
+57	1	0.0	2	0 0 1
+62	2	0.0	2	0 0 2
+71	2	0.0	2	0 0 2
+73	1	0.0	2	0 0 1
+75	1	0.0	2	0 0 1
+85	1	0.0	2	0 0 1
+87	1	0.0	2	0 0 1
+89	1	0.0	2	0 0 1
+133	1	0.0	2	0 0 1
+154	1	0.0	2	0 0 1
+160	1	0.0	2	0 0 1
+177	2	0.0	2	0 0 2
+
+=== Adapter GGGs ===
+
+Sequence: GGGGGGGGGGGGGGGGGGGGGGGGGGGGGG; Type: variable 5'/3'; Length: 30; Trimmed: 4 times.
+0 times, it overlapped the 5' end of a read
+4 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30 bp: 6
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+5	3	2.4	1	0 3
+6	1	0.6	1	0 1
+
+=== Adapter CCCs ===
+
+Sequence: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC; Type: variable 5'/3'; Length: 30; Trimmed: 11 times.
+6 times, it overlapped the 5' end of a read
+5 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30 bp: 6
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+5	4	2.4	1	0 4
+6	2	0.6	1	0 2
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+5	3	2.4	1	2 1
+7	1	0.2	1	0 1
+
+=== Adapter TS-2 ===
+
+Sequence: CTTGCTACACGATTCAGACTTAGGAATGTTCGACATGCGAGGGTCCAATACCGACGATTACAG; Type: variable 5'/3'; Length: 63; Trimmed: 36 times.
+8 times, it overlapped the 5' end of a read
+28 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30-34 bp: 6; 35-39 bp: 7; 40-44 bp: 8; 45-49 bp: 9; 50-54 bp: 10; 55-59 bp: 11; 60-63 bp: 12
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+3	3	38.9	0	3
+5	5	2.4	1	0 5
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	3	38.9	0	3
+4	9	9.7	0	1 8
+5	15	2.4	1	0 15
+9	1	0.0	1	0 1
+
+=== Adapter TS-3 ===
+
+Sequence: GGTGATAAAACGTGTAGCAAGCTGTAATCGACGGGAAGAGCATGCCCATCCACTACTATGGCG; Type: variable 5'/3'; Length: 63; Trimmed: 10 times.
+1 times, it overlapped the 5' end of a read
+9 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30-34 bp: 6; 35-39 bp: 7; 40-44 bp: 8; 45-49 bp: 9; 50-54 bp: 10; 55-59 bp: 11; 60-63 bp: 12
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	2	38.9	0	2
+4	3	9.7	0	0 3
+5	3	2.4	1	0 3
+12	1	0.0	2	0 0 1
+
+=== Adapter TS-4 ===
+
+Sequence: CCTCGCATGACTCAACTGCCTGGTGATACGAGGATGGGCATGCTCTTCCCGACGGTATTGGAC; Type: variable 5'/3'; Length: 63; Trimmed: 6 times.
+1 times, it overlapped the 5' end of a read
+5 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+0-4 bp: 0; 5-9 bp: 1; 10-14 bp: 2; 15-19 bp: 3; 20-24 bp: 4; 25-29 bp: 5; 30-34 bp: 6; 35-39 bp: 7; 40-44 bp: 8; 45-49 bp: 9; 50-54 bp: 10; 55-59 bp: 11; 60-63 bp: 12
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+3	1	38.9	0	1
+5	2	2.4	1	0 2
+6	1	0.6	1	0 1
+9	1	0.0	1	0 0 1
+
+STEP3: Remove adapter sequences and remain sequence with correct size at date.
+This is cutadapt 1.18 with Python 3.7.1
+Command line parameters: -j 80 -a GCTGACTAGTACATGACCAGG...GCCATAGTAGACGTATCGCAG -e 0.1 -m 84 -M 86 --discard-untrimmed -o 5k_test/step3_cutadapt/mini.R1.Trim.fastq 5k_test/step3_cutadapt/mini.R1.T2.fastq
+Processing reads on 80 cores in single-end mode ...
+Finished in 0.50 s (214 us/read; 0.28 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,335
+Reads with adapters:                         0 (0.0%)
+Reads that were too short:                 427 (18.3%)
+Reads that were too long:                1,738 (74.4%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:       248,913 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 2 ===
+
+Sequence: GCTGACTAGTACATGACCAGG...GCCATAGTAGACGTATCGCAG; Type: linked; Length: 21+21; 5' trimmed: 0 times; 3' trimmed: 0 times
+
+Finished trimming in 5k_test/step3_cutadapt at Mon May 22 20:45:55 CDT 2023
+STEP4: FastQC of the merged files to assess quality of selection pool sequences at Mon May 22 20:45:55 CDT 2023.
+Analysis complete for mini.R1.Trim.fastq
+Finished processing 5k_test/step2_assembly/merged/mini.R1.merged.fastq at Mon May 22 20:46:02 CDT 2023.
+The value of COUNTER=1
+The new value of COUNTER=2
+Finished processing at Mon May 22 20:46:02 CDT 2023.

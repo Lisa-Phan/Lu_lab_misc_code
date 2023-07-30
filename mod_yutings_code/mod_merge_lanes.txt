@@ -1,0 +1,98 @@
+#!/bin/bash
+#SBATCH -p normal
+#SBATCH -J merge_lanes
+#SBATCH -e %x.err
+#SBATCH -o %x.out
+#SBATCH -n 8
+#SBATCH -N 1
+#SBATCH -t 4:00:00
+
+echo Step 0: Define variables, tools, and paths at echo `date`.
+
+## Home Directory
+JOB_NAME=`tail -n 1 .userlog.txt | cut -d" " -f4`
+
+## Input Directory for sequences to be processed
+INPUT=$JOB_NAME/step3_cutadapt
+
+## Directory for sequences that have been cut
+OUTPUT=$JOB_NAME/step3.5_merge_lanes
+
+input_ext=.Trim.fastq
+all_dir=($OUTPUT/fastqc)
+
+module load biocontainers
+
+echo Step 1: Check and create directories at `date`.
+## Only runs if $all_dir is uncommented above and has something added to it. Otherwise, will create $count_dir and $clust_dir separately later in the script when the "count" or "clust" programs are run.
+if [ ! -z $all_dir ]; then
+  for d in ${all_dir[@]}; do  ## Loops through all directories listed in array $all_dir
+  ## If the directory doesn't exist, creates the directory (and all parent directories).
+    if [ ! -d $d ]; then
+      mkdir -p $d
+      echo Creating directory $d and any parent directories at `date`.
+    fi
+  done
+fi
+
+echo retrieve files
+
+## If $file_list is uncommented above and set to a value, updates the file_list file which the script uses to get the list of filenames to process
+
+if [ ! -z "$INPUT/file_list" ]; then
+   	 ls $INPUT/*$input_ext > $INPUT/file_list  ## Updates the file_list file
+   	 echo Created an updated file_list in $INPUT at `date`.
+    else
+    sleep 0.1                                          ## Sleep for 0.1 second if not the first task
+fi
+
+COUNTER=1
+
+echo `wc -l < $INPUT/file_list`
+line_count=`wc -l < $INPUT/file_list`
+echo Line_number $line_count
+max_file_number=$(($line_count / 2))
+echo max sample number $max_file_number
+
+while [ $COUNTER -le $max_file_number ]
+do
+echo sample $COUNTER
+
+	LineA=$((2*$COUNTER-1))
+	LineB=$((2*$COUNTER))
+	A=`echo "$LineA"p`
+	B=`echo "$LineB"p`
+
+	echo extracting from line number $A and $B
+	R1=`sed -n "$A" $INPUT/file_list`   ## Gets the filename from the $file_list file corresponding to the current $task_id
+  	R2=`sed -n "$B" $INPUT/file_list`  
+
+	echo Grabbing filenames from the external file $file_list at `date`.
+
+input_file1=`basename $R1 $input_ext`          ## Removes the directory from the filename to get the basename
+input_file2=`basename $R2 $input_ext`
+sample_name=${input_file1%%$input_ext}  ## Remove the input_ext from the filename
+
+## Output of variables to help with troubleshooting
+echo -e "Variable R1 is $R1."
+echo -e "Variable R2 is $R2."
+echo -e "Variable sample_name is $sample_name."
+
+echo STEP2: merge files
+
+cat $R1 $R2 > $OUTPUT/$sample_name.fastq
+
+echo STEP3:FastQC of the merged files
+
+module load fastqc
+fastqc -t 8 -o $OUTPUT/fastqc $OUTPUT/$sample_name.fastq
+
+printf "The value of COUNTER=%d\n" $COUNTER
+let COUNTER=COUNTER+1
+printf "The new value of COUNTER=%d\n" $COUNTER
+
+done
+
+echo Finished processing $samplename at `date`.
+
+module purge
