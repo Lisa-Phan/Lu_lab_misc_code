@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.2148
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.2057
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3740
+HEADER 5  - Mean B-factor of pocket residues  : 0.4900
+HEADER 6  - Hydrophobicity Score              : 23.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 92.1401
+HEADER 10 - Pocket volume (convex hull)       : 7.8068
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   6260   CB LYS D 391       9.189-116.278  26.268  0.00  0.00           C 0
+ATOM   6017  CD1 LEU D 363      11.924-113.381  25.347  0.00  0.00           C 0
+ATOM   6217    O PHE D 387      12.528-117.456  26.273  0.00  0.00           O 0
+ATOM   6262   CD LYS D 391       8.215-115.335  24.122  0.00  0.00           C 0
+ATOM   6022    O PRO D 364      12.070-115.178  19.582  0.58  6.43           O 0
+ATOM   6231  OD1 ASN D 388      11.142-119.418  22.646  0.77  4.29           O 0
+ATOM   6068  NE2 GLN D 369      11.661-118.161  19.783  0.52  2.19           N 0
+ATOM   6218   CB PHE D 387      15.112-117.526  24.260  0.00  0.00           C 0
+ATOM   6196    O GLY D 384      14.448-121.386  23.685  0.00  0.00           O 0
+ATOM   6066   CD GLN D 369      12.297-119.131  19.108  0.00  0.00           C 0
+ATOM   6194   CA GLY D 384      16.320-121.481  22.181  0.00  0.00           C 0
+ATOM   6024   CG PRO D 364      15.950-114.907  19.809  0.00  0.00           C 0
+ATOM   6025   CD PRO D 364      15.306-114.087  20.871  0.00  0.00           C 0
+ATOM   6157  CH2 TRP D 379      16.975-119.149  19.462  0.00  0.00           C 0
+ATOM   6221  CD2 PHE D 387      17.321-117.427  23.111  0.00  0.00           C 0
+ATOM   6065   CG GLN D 369      13.318-118.700  18.083  0.00  0.00           C 0
+ATOM   6015   CB LEU D 363      12.694-112.832  23.047  0.00  0.00           C 0
+TER
+END

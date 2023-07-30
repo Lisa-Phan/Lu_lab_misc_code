@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : 0.1151
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.3924
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4800
+HEADER 5  - Mean B-factor of pocket residues  : 0.3405
+HEADER 6  - Hydrophobicity Score              : 9.3000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 64.1598
+HEADER 10 - Pocket volume (convex hull)       : 0.9656
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   6024   CG PRO D 364      15.950-114.907  19.809  0.00  0.00           C 0
+ATOM   5421   CA TYR D 292      19.763-110.479  17.758  0.00  0.00           C 0
+ATOM   5924   OH TYR D 351      17.491-110.671  21.351  0.84  1.07           O 0
+ATOM   5427  CD2 TYR D 292      19.676-113.256  19.838  0.00  0.00           C 0
+ATOM   6097  CE2 PHE D 372      18.270-115.560  16.477  0.00  0.00           C 0
+ATOM   5423    O TYR D 292      18.096-108.820  18.217  0.50  2.14           O 0
+ATOM   6023   CB PRO D 364      14.957-115.082  18.676  0.00  0.00           C 0
+ATOM   6019    N PRO D 364      14.208-113.392  20.159  0.00  0.00           N 0
+ATOM   6009    O ALA D 362      14.997-109.986  20.876  0.00  0.00           O 0
+ATOM   6057   CG ASP D 368      13.820-113.420  14.698  0.00  0.00           C 0
+ATOM   5414    O GLU D 291      19.479-111.458  15.193  0.00  0.00           O 0
+ATOM   6059  OD2 ASP D 368      13.277-112.682  15.566  0.00  0.00           O 1
+ATOM   6020   CA PRO D 364      13.959-113.931  18.806  0.00  0.00           C 0
+ATOM   3896  NH1 ARG D  98      13.726-109.952  15.639  0.43  2.19           N 0
+ATOM   5439    O SER D 294      16.362-108.842  14.434  0.00  0.00           O 0
+ATOM   5470   NZ LYS D 297      17.001-111.504  13.371  0.00  0.00           N 0
+ATOM   6056   CB ASP D 368      14.309-114.822  15.096  0.00  0.00           C 0
+TER
+END

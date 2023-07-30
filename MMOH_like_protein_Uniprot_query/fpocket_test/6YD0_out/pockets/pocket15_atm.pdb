@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.2221
+HEADER 1  - Drug Score                        : 0.0071
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.2141
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3572
+HEADER 5  - Mean B-factor of pocket residues  : 0.5548
+HEADER 6  - Hydrophobicity Score              : 39.1000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.8957
+HEADER 10 - Pocket volume (convex hull)       : 13.7684
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4583
+ATOM   3494  CG2 THR D  48      59.628 -97.069  20.980  0.00  0.00           C 0
+ATOM   4122   CB SER D 127      56.139 -93.681  17.501  0.00  0.00           C 0
+ATOM   3459  CG2 THR D  44      59.903 -92.744  20.668  0.00  0.00           C 0
+ATOM   4121    O SER D 127      58.832 -92.736  16.225  0.21  1.07           O 0
+ATOM   4123   OG SER D 127      55.500 -93.819  18.701  0.00  0.00           O 0
+ATOM   3493  OG1 THR D  48      58.210 -98.912  20.386  0.00  0.00           O 0
+ATOM   3533   CE MET D  52      55.909 -96.636  15.090  0.00  0.00           C 0
+ATOM   4683   CB ALA D 197      54.174 -96.460  20.025  0.00  0.00           C 0
+ATOM   3492   CB THR D  48      58.443 -97.950  21.445  0.00  0.00           C 0
+ATOM   4690  CG2 VAL D 198      55.927-100.331  17.079  0.00  0.00           C 0
+ATOM   3531   CG MET D  52      58.453 -96.591  14.058  0.00  0.00           C 0
+ATOM   3508   CB TYR D  50      59.877-101.069  17.394  0.00  0.00           C 0
+ATOM   5139  CG2 ILE D 257      58.979-100.600  13.658  0.00  0.00           C 0
+ATOM   3532   SD MET D  52      57.002 -95.531  14.226  0.00  0.00           S 0
+ATOM   3507    O TYR D  50      61.480 -98.414  18.640  0.48  2.14           O 0
+ATOM   3526    N MET D  52      61.405 -96.989  14.483  0.52  2.19           N 0
+ATOM   3506    C TYR D  50      61.610 -99.391  17.905  0.00  0.00           C 0
+ATOM   3472    O TYR D  46      58.434 -94.306  23.615  0.00  0.00           O 0
+ATOM   3473   CB TYR D  46      55.564 -92.977  23.577  0.00  0.00           C 0
+ATOM   3484    O PRO D  47      56.647 -97.335  24.045  0.00  0.00           O 0
+TER
+END

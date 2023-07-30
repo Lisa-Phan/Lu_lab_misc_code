@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.1944
+HEADER 1  - Drug Score                        : 0.0251
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.3037
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3663
+HEADER 5  - Mean B-factor of pocket residues  : 0.6582
+HEADER 6  - Hydrophobicity Score              : 29.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 147.3249
+HEADER 10 - Pocket volume (convex hull)       : 9.0756
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.9412
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.7083
+ATOM   5746   CD PRO D 329      47.612-114.880  12.777  0.00  0.00           C 0
+ATOM   5627  CH2 TRP D 313      44.658-110.352  11.721  0.00  0.00           C 0
+ATOM   5242  CD1 LEU D 271      49.069-108.975  14.239  0.00  0.00           C 0
+ATOM   5665  CD1 ILE D 318      48.182-110.133   9.965  0.00  0.00           C 0
+ATOM   5663  CG1 ILE D 318      47.233-111.226   9.437  0.00  0.00           C 0
+ATOM   5745   CG PRO D 329      46.511-114.639  13.752  0.00  0.00           C 0
+ATOM   5269   CB PHE D 275      45.154-111.117  16.612  0.00  0.00           C 0
+ATOM   5248   CB ASN D 272      49.734-113.545  19.027  0.00  0.00           C 0
+ATOM   5751   CB ALA D 330      49.644-118.646  18.469  0.00  0.00           C 0
+ATOM   5251  ND2 ASN D 272      48.847-115.102  20.659  0.40  8.75           N 0
+ATOM   5249   CG ASN D 272      48.753-114.626  19.413  0.00  0.00           C 0
+ATOM   5741   CA PRO D 329      48.271-115.821  14.901  0.00  0.00           C 0
+ATOM   5244    N ASN D 272      49.983-111.216  18.156  0.00  0.00           N 0
+ATOM   5216    O ASN D 268      52.759-112.326  17.954  0.60  4.29           O 0
+ATOM   5245   CA ASN D 272      49.030-112.219  18.642  0.00  0.00           C 0
+ATOM   5744   CB PRO D 329      47.148-114.792  15.107  0.00  0.00           C 0
+ATOM   5219  OD1 ASN D 268      54.276-113.134  13.930  0.72  1.07           O 0
+ATOM   5737    O SER D 328      50.021-117.445  13.584  0.19  2.14           O 0
+ATOM   5243  CD2 LEU D 271      50.752-110.541  13.421  0.00  0.00           C 0
+ATOM   5728    O GLU D 327      50.997-114.596  12.130  0.00  0.00           O 0
+ATOM   5747    N ALA D 330      48.726-117.397  16.633  0.00  0.00           N 0
+ATOM   5733  OE2 GLU D 327      55.590-116.814  15.217  0.79  7.50           O 1
+ATOM   5241   CG LEU D 271      49.999-110.091  14.642  0.00  0.00           C 0
+TER
+END

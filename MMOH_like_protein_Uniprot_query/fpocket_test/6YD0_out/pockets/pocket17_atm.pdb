@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.2120
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.1672
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3705
+HEADER 5  - Mean B-factor of pocket residues  : 0.5219
+HEADER 6  - Hydrophobicity Score              : 58.7778
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 85.6204
+HEADER 10 - Pocket volume (convex hull)       : 5.1289
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   5119  CG2 VAL D 254      53.241-104.217  10.476  0.00  0.00           C 0
+ATOM   4689  CG1 VAL D 198      54.701-102.529  17.098  0.00  0.00           C 0
+ATOM   5211  CD1 LEU D 267      54.853-106.473  14.877  0.00  0.00           C 0
+ATOM   5140  CD1 ILE D 257      57.305-103.184  13.849  0.00  0.00           C 0
+ATOM   4752   CB LEU D 206      47.757-104.218  11.940  0.00  0.00           C 0
+ATOM   5084    O GLY D 250      51.067-101.055   9.956  0.46  1.07           O 0
+ATOM   4719  CG1AVAL D 202      50.603-104.593  14.996  0.00  0.00           C 0
+ATOM   4713   CAAVAL D 202      48.550-103.311  15.742  0.00  0.00           C 0
+ATOM   4709    O SER D 201      47.840-100.880  14.950  0.00  0.00           O 0
+ATOM   5082   CA GLY D 250      49.005 -99.821  10.120  0.00  0.00           C 0
+ATOM   4711   OG SER D 201      50.538 -99.422  14.290  0.66  1.07           O 0
+ATOM   5112  CG2 THR D 253      53.782 -99.785  13.240  0.00  0.00           C 0
+ATOM   5113    N VAL D 254      54.395-101.500  10.139  0.00  0.00           N 0
+ATOM   4687    O VAL D 198      51.786-102.030  17.809  0.00  0.00           O 0
+ATOM   5114   CA VAL D 254      55.136-102.746   9.929  0.00  0.00           C 0
+ATOM   4755  CD2 LEU D 206      49.328-106.096  11.225  0.00  0.00           C 0
+ATOM   5110   CB THR D 253      53.053 -99.437  11.919  0.00  0.00           C 0
+TER
+END

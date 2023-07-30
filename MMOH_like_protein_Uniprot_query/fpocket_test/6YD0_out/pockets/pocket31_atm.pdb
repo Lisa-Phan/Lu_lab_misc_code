@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.1026
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.2697
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3968
+HEADER 5  - Mean B-factor of pocket residues  : 0.4089
+HEADER 6  - Hydrophobicity Score              : 22.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 59.7539
+HEADER 10 - Pocket volume (convex hull)       : 0.6691
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   6526  CG1 VAL D 423      33.320-111.535  26.780  0.00  0.00           C 0
+ATOM   5322   CE LYS D 280      37.460-113.455  26.219  0.00  0.00           C 0
+ATOM   6524    O VAL D 423      33.935-111.597  30.353  0.77  1.07           O 0
+ATOM   5323   NZ LYS D 280      37.540-114.935  26.388  0.63  1.09           N 0
+ATOM   6531    O PRO D 424      31.583-113.569  29.043  0.71  2.14           O 0
+ATOM   6541  CD1 PHE D 425      33.000-117.876  29.361  0.00  0.00           C 0
+ATOM   6539   CB PHE D 425      32.963-115.969  31.009  0.00  0.00           C 0
+ATOM   6525   CB VAL D 423      34.361-110.624  27.384  0.00  0.00           C 0
+ATOM   6725  OG1 THR D 449      37.735-115.208  29.948  0.82  1.07           O 0
+ATOM   6540   CG PHE D 425      33.304-117.382  30.629  0.00  0.00           C 0
+ATOM   6724   CB THR D 449      37.282-116.275  30.769  0.00  0.00           C 0
+ATOM   6596    O THR D 433      35.805-119.200  25.473  0.60  2.14           O 0
+ATOM   6723    O THR D 449      38.482-118.538  29.369  0.71  1.07           O 0
+ATOM   6543  CE1 PHE D 425      33.334-119.214  28.988  0.00  0.00           C 0
+TER
+END

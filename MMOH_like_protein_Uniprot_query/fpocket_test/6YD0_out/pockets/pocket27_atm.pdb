@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : 0.1339
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.2597
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4167
+HEADER 5  - Mean B-factor of pocket residues  : 0.3245
+HEADER 6  - Hydrophobicity Score              : 2.4000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 71.4531
+HEADER 10 - Pocket volume (convex hull)       : 1.4083
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   6510   CB SER D 421      38.666-109.455  27.577  0.00  0.00           C 0
+ATOM   4605  NH1 ARG D 186      41.969-107.899  26.326  0.38  3.28           N 0
+ATOM   6504  CG1 VAL D 420      43.187-109.229  29.544  0.00  0.00           C 0
+ATOM   6487  OD2 ASP D 418      39.280-111.728  29.726  0.00  0.00           O 1
+ATOM   5319   CB LYS D 280      38.662-111.238  23.324  0.00  0.00           C 0
+ATOM   5282  CD1 TRP D 276      42.732-113.105  23.826  0.00  0.00           C 0
+ATOM   5320   CG LYS D 280      38.027-111.577  24.703  0.00  0.00           C 0
+ATOM   5291   CA THR D 277      42.358-108.646  22.351  0.00  0.00           C 0
+ATOM   6734  OD2 ASP D 450      40.257-115.229  26.985  0.52  2.14           O 1
+ATOM   5321   CD LYS D 280      38.010-113.074  24.934  0.00  0.00           C 0
+ATOM   5295  OG1 THR D 277      44.349-107.836  23.534  0.61  2.14           O 0
+ATOM   6788  OE1 GLN D 456      45.422-110.383  27.250  0.00  0.00           O 0
+ATOM   6758   CA GLY D 453      44.342-113.462  28.670  0.00  0.00           C 0
+ATOM   5284  NE1 TRP D 276      41.785-113.926  24.363  0.58  2.19           N 0
+ATOM   5279    O TRP D 276      41.210-111.019  21.589  0.00  0.00           O 0
+TER
+END

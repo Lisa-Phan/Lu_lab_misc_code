@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.2663
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.1772
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3314
+HEADER 5  - Mean B-factor of pocket residues  : 0.2041
+HEADER 6  - Hydrophobicity Score              : 54.4545
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 103.9192
+HEADER 10 - Pocket volume (convex hull)       : 8.7469
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   7049   CA GLY D 487      19.137 -94.944  33.372  0.00  0.00           C 0
+ATOM   5970    O GLY D 357      20.417 -99.499  29.954  0.53  4.29           O 0
+ATOM   4506   CB THR D 174      22.676 -93.978  29.938  0.00  0.00           C 0
+ATOM   4532  CD1 ILE D 177      22.446 -96.352  33.941  0.00  0.00           C 0
+ATOM   4505    O THR D 174      24.581 -96.292  30.616  0.00  0.00           O 0
+ATOM   5975   CB PHE D 358      21.366 -97.134  27.450  0.00  0.00           C 0
+ATOM   7119  CD1 ILE D 496      18.285 -93.863  29.761  0.00  0.00           C 0
+ATOM   7116   CB ILE D 496      16.861 -95.888  28.947  0.00  0.00           C 0
+ATOM   7051    O GLY D 487      16.993 -95.969  33.114  0.80  2.14           O 0
+ATOM   7120    N ALA D 497      16.121 -98.858  29.106  0.61  1.09           N 0
+ATOM   5955    O PRO D 355      19.035-101.463  33.180  0.51  2.14           O 0
+ATOM   7108   CB LEU D 495      13.985 -98.840  32.522  0.00  0.00           C 0
+ATOM   7110  CD1 LEU D 495      14.948-100.788  33.867  0.00  0.00           C 0
+ATOM   5962    O LEU D 356      22.990-100.931  31.697  0.00  0.00           O 0
+ATOM   4531  CG2 ILE D 177      23.531 -99.285  34.770  0.00  0.00           C 0
+ATOM   7017  CG1 ILE D 482      19.259 -99.943  36.641  0.00  0.00           C 0
+ATOM   7124   CB ALA D 497      17.227-101.021  29.490  0.00  0.00           C 0
+ATOM   7018  CG2 ILE D 482      18.103 -97.852  35.798  0.00  0.00           C 0
+TER
+END

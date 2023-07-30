@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : 0.0928
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.3878
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4871
+HEADER 5  - Mean B-factor of pocket residues  : 0.2427
+HEADER 6  - Hydrophobicity Score              : 10.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 79.8335
+HEADER 10 - Pocket volume (convex hull)       : 2.1252
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   6907  CG2 VAL D 469      29.166-105.934  36.548  0.00  0.00           C 0
+ATOM   6477  CG1 ILE D 417      32.077-109.280  35.108  0.00  0.00           C 0
+ATOM   6479  CD1 ILE D 417      31.290-109.342  33.767  0.00  0.00           C 0
+ATOM   6901    N VAL D 469      31.712-104.810  37.499  0.78  2.19           N 0
+ATOM   4571   CG LYS D 182      32.933-102.268  32.443  0.00  0.00           C 0
+ATOM   6894   CA ASN D 468      34.139-104.947  37.545  0.00  0.00           C 0
+ATOM   6519  OE1 GLN D 422      36.966-105.587  33.280  0.83  2.14           O 0
+ATOM   6886    O HIS D 467      35.629-102.776  36.845  0.89  1.07           O 0
+ATOM   6906  CG1 VAL D 469      29.598-103.538  35.704  0.00  0.00           C 0
+ATOM   4541   CB PRO D 179      28.584-105.860  32.255  0.00  0.00           C 0
+ATOM   4538   CA PRO D 179      28.924-104.430  31.781  0.00  0.00           C 0
+ATOM   6897   CB ASN D 468      34.253-106.464  37.269  0.00  0.00           C 0
+ATOM   4540    O PRO D 179      30.700-104.613  30.240  0.00  0.00           O 0
+ATOM   6515    O GLN D 422      33.591-107.789  30.373  0.86  1.07           O 0
+ATOM   6478  CG2 ILE D 417      34.279-108.638  33.920  0.00  0.00           C 0
+ATOM   4570   CB LYS D 182      33.667-102.931  31.282  0.00  0.00           C 0
+ATOM   6516   CB GLN D 422      35.682-105.975  30.814  0.00  0.00           C 0
+TER
+END

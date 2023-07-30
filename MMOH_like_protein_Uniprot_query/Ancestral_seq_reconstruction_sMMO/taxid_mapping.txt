@@ -1,0 +1,58 @@
+refseq_id	taxid	name	Original_query_taxid	kingdom	phylum	class	order	family	genus	species
+WP_013075550.1	33943	Kyrpidia tusciae	33943	<not present>	Bacillota	Bacilli	Bacillales	Alicyclobacillaceae	Kyrpidia	Kyrpidia tusciae
+ORW96926.1	1788	Mycolicibacter terrae	1788	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacter	Mycolicibacter terrae
+ODV04741.1	1660132	Pseudonocardia sp. SCN 73-27	1660132	<not present>	Actinomycetota	Actinomycetes	Pseudonocardiales	Pseudonocardiaceae	Pseudonocardia	Pseudonocardia sp. SCN 73-27
+TMC94224.1	2026724	Chloroflexota bacterium	2026724	<not present>	Chloroflexota	<not present>	<not present>	<not present>	<not present>	Chloroflexota bacterium
+TMC94224.1	2026724	Chloroflexota bacterium	2026724	<not present>	Chloroflexota	<not present>	<not present>	<not present>	<not present>	Chloroflexota bacterium
+TMD95229.1	2026724	Chloroflexota bacterium	2026724	<not present>	Chloroflexota	<not present>	<not present>	<not present>	<not present>	Chloroflexota bacterium
+TMD95229.1	2026724	Chloroflexota bacterium	2026724	<not present>	Chloroflexota	<not present>	<not present>	<not present>	<not present>	Chloroflexota bacterium
+WP_134211723.1	417367	Paenisporosarcina antarctica	417367	<not present>	Bacillota	Bacilli	Bacillales	Planococcaceae	Paenisporosarcina	Paenisporosarcina antarctica
+AEJ41334.1	1051632	Sulfobacillus acidophilus TPY	1051632	<not present>	Bacillota	Clostridia	Eubacteriales	Clostridiales Family XVII. Incertae Sedis	Sulfobacillus	Sulfobacillus acidophilus
+WP_035988373.1	75105	Paraburkholderia caribensis	75105	<not present>	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Paraburkholderia	Paraburkholderia caribensis
+WP_048862299.1	50715	Acidisphaera rubrifaciens	50715	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acidisphaera	Acidisphaera rubrifaciens
+WP_012386302.1	533	Beijerinckia indica	533	<not present>	Pseudomonadota	Alphaproteobacteria	Hyphomicrobiales	Beijerinckiaceae	Beijerinckia	Beijerinckia indica
+WP_044434593.1	393310	Skermanella aerolata	393310	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Azospirillaceae	Skermanella	Skermanella aerolata
+WP_044434593.1	393310	Skermanella aerolata	393310	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Azospirillaceae	Skermanella	Skermanella aerolata
+WP_044435962.1	393310	Skermanella aerolata	393310	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Azospirillaceae	Skermanella	Skermanella aerolata
+WP_044435962.1	393310	Skermanella aerolata	393310	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Azospirillaceae	Skermanella	Skermanella aerolata
+QCY50162.1	211455	uncultured Pseudonocardia sp.	211455	<not present>	Actinomycetota	Actinomycetes	Pseudonocardiales	Pseudonocardiaceae	Pseudonocardia	uncultured Pseudonocardia sp.
+TMM16568.1	2900548	Actinomycetota bacterium	2900548	<not present>	Actinomycetota	<not present>	<not present>	<not present>	<not present>	Actinomycetota bacterium
+TMM16568.1	2900548	Actinomycetota bacterium	2900548	<not present>	Actinomycetota	<not present>	<not present>	<not present>	<not present>	Actinomycetota bacterium
+TMM00089.1	2900548	Actinomycetota bacterium	2900548	<not present>	Actinomycetota	<not present>	<not present>	<not present>	<not present>	Actinomycetota bacterium
+TMM00089.1	2900548	Actinomycetota bacterium	2900548	<not present>	Actinomycetota	<not present>	<not present>	<not present>	<not present>	Actinomycetota bacterium
+WP_107568211.1	2133960	Paraconexibacter algicola	2133960	<not present>	Actinomycetota	Thermoleophilia	Solirubrobacterales	Paraconexibacteraceae	Paraconexibacter	Paraconexibacter algicola
+WP_014805422.1	1800	Mycolicibacterium chubuense	1800	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacterium	Mycolicibacterium chubuense
+BAA07114.1	36822	Gordonia rubripertincta	36822	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Gordoniaceae	Gordonia	Gordonia rubripertincta
+BBD49902.1	1199097	Alteromonadaceae bacterium PE-TB08W	1199097	<not present>	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	<not present>	Alteromonadaceae bacterium PE-TB08W
+WP_066884131.1	1469144	Carbonactinospora thermoautotrophica	1469144	<not present>	Actinomycetota	Actinomycetes	Kitasatosporales	Carbonactinosporaceae	Carbonactinospora	Carbonactinospora thermoautotrophica
+WP_132191191.1	2644121	unclassified Kribbella	2644121	<not present>	Actinomycetota	Actinomycetes	Propionibacteriales	Kribbellaceae	Kribbella	<not present>
+WP_147115713.1	54011	Pseudonocardia sulfidoxydans	54011	<not present>	Actinomycetota	Actinomycetes	Pseudonocardiales	Pseudonocardiaceae	Pseudonocardia	Pseudonocardia sulfidoxydans
+WP_040789699.1	114259	Nocardia paucivorans	114259	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Nocardiaceae	Nocardia	Nocardia paucivorans
+WP_085136508.1	29314	Mycolicibacter hiberniae	29314	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacter	Mycolicibacter hiberniae
+WP_006247675.1	75922	Mycolicibacterium tusciae	75922	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacterium	Mycolicibacterium tusciae
+WP_011751516.1	2615069	unclassified Nocardioides	2615069	<not present>	Actinomycetota	Actinomycetes	Propionibacteriales	Nocardioidaceae	Nocardioides	<not present>
+WP_102810202.1	1213407	Mycobacterium sp. ENV421	1213407	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium sp. ENV421
+WP_102810202.1	1213407	Mycobacterium sp. ENV421	1213407	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium sp. ENV421
+WP_102810290.1	1213407	Mycobacterium sp. ENV421	1213407	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium sp. ENV421
+WP_102810290.1	1213407	Mycobacterium sp. ENV421	1213407	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium sp. ENV421
+WP_133879578.1	381431	Panacagrimonas perspica	381431	<not present>	Pseudomonadota	Gammaproteobacteria	Nevskiales	Nevskiaceae	Panacagrimonas	Panacagrimonas perspica
+WP_149383891.1	1547487	Mycobacterium sp. ELW1	1547487	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium sp. ELW1
+RUP06991.1	1785	Mycobacterium sp.	1785	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium sp.
+BBA85876.1	1136880	Mycobacterium pseudoshottsii JCM 15466	1136880	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium pseudoshottsii
+WP_136246236.1	1767	Mycobacterium intracellulare	1767	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium intracellulare
+WP_014805366.1	1866885	Mycolicibacterium	1866885	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacterium	<not present>
+WP_033718946.1	1764	Mycobacterium avium	1764	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium avium
+WP_123029559.1	2358193	Mycolicibacterium stellerae	2358193	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacterium	Mycolicibacterium stellerae
+WP_119782044.1	2320859	Oleomonas cavernae	2320859	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Oleomonas	Oleomonas cavernae
+WP_014211362.1	36814	Mycolicibacterium rhodesiae	36814	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacterium	Mycolicibacterium rhodesiae
+WP_014805752.1	1786	Mycolicibacterium sphagni	1786	<not present>	Actinomycetota	Actinomycetes	Mycobacteriales	Mycobacteriaceae	Mycolicibacterium	Mycolicibacterium sphagni
+PCJ58204.1	1898112	Rhodospirillaceae bacterium	1898112	<not present>	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	<not present>	Rhodospirillaceae bacterium
+WP_093285538.1	489703	Solimonas aquatica	489703	<not present>	Pseudomonadota	Gammaproteobacteria	Nevskiales	Nevskiaceae	Solimonas	Solimonas aquatica
+AAR98534.1	240505	Brachymonas petroleovorans	240505	<not present>	Pseudomonadota	Betaproteobacteria	Burkholderiales	Comamonadaceae	Brachymonas	Brachymonas petroleovorans
+PKO83176.1	2013702	Betaproteobacteria bacterium HGW-Betaproteobacteria-11	2013702	<not present>	Pseudomonadota	Betaproteobacteria	<not present>	<not present>	<not present>	Betaproteobacteria bacterium HGW-Betaproteobacteria-11
+WP_104955546.1	2072936	Sphingobium sp. SCG-1	2072936	<not present>	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. SCG-1
+PKO92487.1	2013700	Betaproteobacteria bacterium HGW-Betaproteobacteria-1	2013700	<not present>	Pseudomonadota	Betaproteobacteria	<not present>	<not present>	<not present>	Betaproteobacteria bacterium HGW-Betaproteobacteria-1
+WP_020174569.1	876270	Methyloferula stellata	876270	<not present>	Pseudomonadota	Alphaproteobacteria	Hyphomicrobiales	Beijerinckiaceae	Methyloferula	Methyloferula stellata
+4GAM_A	243233	Methylococcus capsulatus str. Bath	243233	<not present>	Pseudomonadota	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylococcus	Methylococcus capsulatus
+WP_026602865.1	1168169	Methylomonas sp. 11b	1168169	<not present>	Pseudomonadota	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylomonas	Methylomonas sp. 11b
+BAE86875.1	81932	Methylotuvimicrobium japanense	81932	<not present>	Pseudomonadota	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylotuvimicrobium	Methylotuvimicrobium japanense
